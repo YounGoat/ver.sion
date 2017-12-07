@@ -1,0 +1,19 @@
+
+NAME
+    version - Semantic version tool.
+    v2 - Alias of command version.
+
+SYNOPSIS
+    version <rangeCode> covers <version>
+    version <version> satisfies <rangeCode>
+
+    version <version> lt <version>
+    version <version> gt <version>
+    version <version> lte <version>
+    version <version> gte <version>
+    version <version> eq <version>
+    version <version> neq <version>
+
+EXAMPLES
+    version ">1.2" covers "1.3.0"
+    version "1.2" eq "1.2.1"
