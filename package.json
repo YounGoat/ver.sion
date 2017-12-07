@@ -11,8 +11,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "name": "V2",
-    "version": "0.0.3",
+    "name": "ver.sion",
+    "version": "0.0.4",
     "main": "index.js",
     "keywords": [
         "semver",
