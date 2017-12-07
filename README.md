@@ -21,6 +21,13 @@ __light-weighted semantic version implementation and enhancement__
 
 ##	Get Started
 
+__ver.sion__ is not only a Node.js module, but also a CLI tool. When installed, command `version` and command alias `v2` will be created. Run the commands without any options for help info.
+
+```bash
+npm install -g ver.sion --prod
+```
+
+Of course, the main business is to be required as a module.
 ```javascript
 const ver = require('ver.sion');
 
