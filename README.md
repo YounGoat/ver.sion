@@ -1,6 +1,10 @@
 #	ver.sion
 __light-weighted semantic version implementation and enhancement__
 
+[![total downloads of ver.sion](https://img.shields.io/npm/dt/ver.sion.svg)](https://www.npmjs.com/package/ver.sion)
+[![ver.sion's License](https://img.shields.io/npm/l/ver.sion.svg)](https://www.npmjs.com/package/ver.sion)
+[![latest version of ver.sion](https://img.shields.io/npm/v/ver.sion.svg)](https://www.npmjs.com/package/ver.sion)
+
 ##	Table of contents
 
 *	[Get Started](#get-started)
@@ -38,8 +42,8 @@ Suppose `ver` is the name of required package:
 
 ```javascript
 const ver = require('ver.sion');
-// OR require package named "V2" if you prefer and have installed with such name.
-const ver = require('V2');
+// OR require package named "ver-sion" if you prefer and have installed with such name.
+const ver = require('ver-sion');
 ```
 
 __ver.sion__ accepts dot-number notation according to [Semantic Versioning 2.0.0](https://semver.org) (hereinafter referred as *SemVer*). However, versions having less or more than three numbers, which are understood as *Major*, *Minor* and *Patch*, are also accepted. For *SemVer*, `1.2.3` is valid, but `1.2.3.4` and `1.2` are invalid (`1.2` is accepted as version range in NPM package [semver](https://www.npmjs.com/package/semver)). For __ver.sion__, all of them are valid versions.

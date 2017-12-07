@@ -1,0 +1,7 @@
+{
+	"name": "ver.sion",
+	"alias": "ver-sion",
+	"badges": [
+		"npm.*"
+	]
+}
