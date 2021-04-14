@@ -8,6 +8,8 @@ const MODULE_REQUIRE = 1
     , path = require('path')
     
     /* NPM */
+    , commandos = require('commandos')
+    , noda = require('noda')
     
     /* in-package */
     , ver = require('..')
@@ -16,8 +18,8 @@ const MODULE_REQUIRE = 1
 const argv = process.argv.slice(2);
 
 if (argv.length != 3) {
-    console.log(fs.readFileSync(path.join(__dirname, '..', 'help.txt'), 'utf8'));
-    process.exit();
+    commandos.man(noda.inRead('help.txt', 'utf8'));
+    return;
 }
 
 const [ left, operator, right ] = argv;
